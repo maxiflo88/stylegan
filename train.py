@@ -34,7 +34,7 @@ if 1:
     tf_config     = {'rnd.np_random_seed': 1000}                                           # Options for tflib.init_tf().
 
     # Dataset.
-    desc += '../input/oxford-flowers-tfrecords/tfrecords-png-192x192'; dataset = EasyDict(tfrecord_dir='../input/oxford-flowers-tfrecords/tfrecords-png-192x192', resoluution=32); train.mirror_augment = True
+    desc += '../input/oxford-flowers-tfrecords/tfrecords-png-192x192'; dataset = EasyDict(tfrecord_dir='../input/oxford-flowers-tfrecords/tfrecords-png-192x192', resolution=32); train.mirror_augment = True
     #desc += '-ffhq512';  dataset = EasyDict(tfrecord_dir='ffhq', resolution=512); train.mirror_augment = True
     #desc += '-ffhq256';  dataset = EasyDict(tfrecord_dir='ffhq', resolution=256); train.mirror_augment = True
     #desc += '-celebahq'; dataset = EasyDict(tfrecord_dir='celebahq');             train.mirror_augment = True
